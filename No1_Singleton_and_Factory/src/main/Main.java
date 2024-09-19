@@ -3,11 +3,18 @@ package main;
 import factory.BeefDumplingStore;
 import factory.ChickenDumplingStore;
 import factory.DumplingStore;
+import singleton.Connection;
 
 public class Main {
 
 	public Main() {
 		// TODO Auto-generated constructor stub
+
+		Connection firstConnection = Connection.getInstance();
+		Connection secondConnection = Connection.getInstance();
+
+		System.out.println("");
+
 		DumplingStore beefStore = new BeefDumplingStore();
 		beefStore.orderDumpling();
 
