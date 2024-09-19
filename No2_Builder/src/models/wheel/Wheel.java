@@ -5,6 +5,10 @@ public class Wheel {
 	protected String name, color;
 	protected int price;
 
+	public Wheel() {
+
+	};
+
 	public Wheel(String name, String color, int price) {
 		super();
 		this.name = name;

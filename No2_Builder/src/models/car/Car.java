@@ -7,6 +7,10 @@ public abstract class Car {
 	protected Engine engine;
 	protected Wheel wheel;
 
+	public Car() {
+
+	};
+
 	public Car(Engine engine, Wheel wheel) {
 		super();
 		this.engine = engine;

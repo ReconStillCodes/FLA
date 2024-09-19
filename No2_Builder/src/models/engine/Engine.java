@@ -5,6 +5,10 @@ public abstract class Engine {
 	protected String name;
 	protected int price, horsePower;
 
+	public Engine() {
+
+	};
+
 	public Engine(String name, int price, int horsePower) {
 		super();
 		this.name = name;
