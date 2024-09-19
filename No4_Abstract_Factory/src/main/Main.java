@@ -9,7 +9,7 @@ public class Main {
 	public Main() {
 		Store poloStore = new Store(new PoloFactory());
 		Store addidasStore = new Store(new AddidasFactory());
-
+		
 		System.out.println("First Store");
 		poloStore.showAllItems();
 		addidasStore.showAllItems();
